@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>A Simple Slideshow</title>
+		<script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/ui.js"></script>
+        <script type="text/javascript" src="js/asimpleslideshow.js"></script>
+        <link rel="stylesheet" href="css/asimpleslideshow.css" type="text/css"/>
+	</head>
+
+    <body>
+		<h2 align="center">A Simple Slideshow</h2>
+    	<div id="contenedor">
+        
+        	<div id="slideshow">
+            		<img src="img/slide1.jpg" id="img1" alt="Sunset at sea with seagulls"/>
+                        <img src="img/slide2.jpg" id="img2" alt="Red cherries"/>
+                        <img src="img/slide3.jpg" id="img3" alt="Fields in spring - Germany"/>
+                        <img src="img/slide4.jpg" id="img4" alt="The night city in Thailand"/>
+                        <img src="img/slide5.jpg" id="img5" alt="Lush rolling hills and vast forests"/>
+                        <img src="img/slide6.jpg" id="img6" alt="City of Paris"/>
+                        <img src="img/slide7.jpg" id="img7" alt="Fog in the forest"/>
+                        <img src="img/slide8.jpg" id="img8" alt="Sunset on lake - France"/>
+                        <img src="img/slide9.jpg" id="img9" alt="Doves - Representation of freedom and peace"/>
+                        <img src="img/slide10.jpg" id="img10" alt="Night traffic on the road"/>					
+            </div>
+            <script>
+			 $(document).ready(function(){
+				 $("#slideshow").simpleslideshow({
+					width: 	"1000px", //Width in pixels
+								height: 	"500px", //Height in pixels
+								effect: 	"drop", /*Only effects blind, bounce, clip, drop, 
+													fade, fold, pulsate, shake, slide*/
+								delay: 		1000, //Time effect
+								progressbar: true, // True or false
+								bottombar: 	true, // True or false
+								numbers: 	true, // True or false
+								text: 		true, // True or false
+								thumbs: 	true,//True or false
+								thumbs_extn: "jpg",//Extenxion image
+					 }); 
+				 });
+     		</script>
+        </div><br>
+		<h6 align="center">César Vásquez - 2015</h6><br><br><br><br><br><br>
+    </body>
+</html>
