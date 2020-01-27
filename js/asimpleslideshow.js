@@ -14,7 +14,7 @@ $(document).ready(function() {
 		var customize = {
 					width: 		"1000px", //Width in pixels
 					height: 	"500px", //Height in pixels
-					effect: 	"drop", /*Only effects blind, bounce, clip, drop, 
+					effect: 	"clip", /*Only effects blind, bounce, clip, drop, 
 										fade, fold, pulsate, shake, slide*/
 					delay: 		700, //Time effect
 					progressbar: true, // True or false
