@@ -2,4 +2,4 @@
 
 console.log("Hello World")
 
-console.log("Basic lerned")
+console.log("Basic learned")
